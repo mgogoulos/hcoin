@@ -114,10 +114,6 @@ Currently pytest is the only dependency on requirements.txt:
     user@user:/tmp/hcoin$ ./bin/pytest tests.py
 
 
-
-![Hcoin Logo](/hcoin.jpg)
-Format: ![made with logojoy.com](url)
-
 ### hcoin's custom image
 <p align="center">
   <img src="https://raw.githubusercontent.com/mgogoulos/hcoin/master/hcoin.jpg?raw=true" alt="Hcoin logo made with logojoy.com"/>
