@@ -55,6 +55,62 @@ and run hcoin.py, this will get you some examples:
 
     Example: hcoin.py user 2017-01-04 - will output balance for user,  for that date
 
+## Examples
+
+If you run hcoin with the transactions.txt included you will get the following output:
+
+Get balance for all users:
+    user@user:/tmp/hcoin$ python hcoin.py all
+    User / Balance
+
+    markos -3895
+    nikos -2612
+    insurance -2097
+    grocery -1504
+    dana -1413
+    supermarket -1295
+    panagiota -569
+    chris 669
+    kostas 2162
+    david 3431
+    maria 7123
+
+Get balance for user chris:
+
+    user@user:/tmp/hcoin$ python3 hcoin.py chris
+    User / Balance
+
+    chris 669
+
+Get balance for user chris for date 2015-11-11:
+
+    user@user:/tmp/hcoin$ python hcoin.py chris 2015-11-11
+    User / Balance for the date of 2015-11-11
+
+    chris -1199
+
+
+## How to produce the transactions
+
+Use gen_transactions.py file, after editing default variables. There's plenty
+of documentation to direct you:
+
+    user@user:/tmp/hcoin$ python gen_transactions.py
+    total transactions generated: 11525
+
+    user@user:/tmp/MARKOS/hcoin$ head transactions.txt
+    2011-01-01,chris,dana,89
+    2011-01-01,nikos,dana,68
+    2011-01-01,panagiota,kostas,35
+    2011-01-01,kostas,nikos,71
+    2011-01-01,david,chris,90
+    2011-01-01,david,maria,40
+    2011-01-01,nikos,insurance,17
+    2011-01-01,david,grocery,59
+    2011-01-02,supermarket,dana,17
+    2011-01-02,david,supermarket,100
+...
+
 ## Tests
 To run the tests install pytest lib, either globally or inside a virtualenv.
 
