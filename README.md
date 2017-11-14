@@ -16,18 +16,23 @@ Transactions have the following format:
     2017-11-11,maria,nikos,54
     2017-12-24,nikos,insurance,88
 
-which translates to:
+which translate to:
 
     date,transaction_sender,transaction_receiver,amount
 
 
-## Requirements for the hcoin client:
+## Requirements for the hcoin client
 
 user current balance need be available but also balance for a specific time in the past.
+
 users are identified through a username
+
 initial balance for all users is zero
+
 amounts are integers, and a limit is specified - currently this is 100
+
 transactions might occur every day but this is not necessary. there might be days with no transactions
+
 a user can send/receive amounts within the same day
 
 ## How to install
