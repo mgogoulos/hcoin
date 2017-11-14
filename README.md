@@ -54,9 +54,10 @@ and run hcoin.py, this will get you some examples:
 
 ## Examples
 
-If you run hcoin with the transactions.txt included you will get the following output:
+If you run hcoin with the transactions.txt included you will get the following output
 
 Get balance for all users:
+
     user@user:/tmp/hcoin$ python hcoin.py all
     User / Balance
 
