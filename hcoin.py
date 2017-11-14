@@ -259,10 +259,11 @@ if __name__ == "__main__":
                   ' Ignoring date')
             print('User / Balance\n')
             user = get_or_create_user(username)
-            print(user.username, user.total_balance)
+            print("%s %s" % (user.username, user.total_balance))
 
             sys.exit(0)
         # we are good to go, show output for user for specific date
         print('User / Balance for the date of %s\n' % transaction_date)
         user = get_or_create_user(username)
-        print(user.username, user.get_balance_for_date(transaction_date))
+        print("%s %s" % (user.username,
+              user.get_balance_for_date(transaction_date)))
