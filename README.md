@@ -1,15 +1,12 @@
 # hcoin
-hcoin - a non scalable fictional currency . ICO soon to come ;)
+Introducing hcoin - a non scalable fictional currency . ICO soon to come ;)
 
-## What is it
-
-Introducing hcoin - a non scalable fictional currency!
+## Brief introduction
 
 All system users start with a balance of 0. Then for each transaction they either give out
 hcoins to other users (in this case they have their balance decreased), or they accept hcoins
 (in this case they have their balance increased)
 
-## Ledger format
 
 Transactions have the following format:
 
