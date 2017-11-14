@@ -20,17 +20,12 @@ which translate to:
 
 ## Requirements for the hcoin client
 
-user current balance need be available but also balance for a specific time in the past.
-
-users are identified through a username
-
-initial balance for all users is zero
-
-amounts are integers, and a limit is specified - currently this is 100
-
-transactions might occur every day but this is not necessary. there might be days with no transactions
-
-a user can send/receive amounts within the same day
+* user current balance need be available but also balance for a specific time in the past.
+* users are identified through a username
+* initial balance for all users is zero
+* amounts are integers, and a limit is specified - currently this is 100
+* transactions might occur every day but this is not necessary. there might be days with no transactions
+* a user can send/receive amounts within the same day
 
 ## How to install
 
@@ -119,3 +114,6 @@ Currently pytest is the only dependency on requirements.txt:
     user@user:/tmp/hcoin$ ./bin/pytest tests.py
 
 
+
+![Hcoin Logo](/hcoin.jpg)
+Format: ![made with logojoy.com](url)
